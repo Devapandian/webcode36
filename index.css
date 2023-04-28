@@ -1,0 +1,59 @@
+
+#bookList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #bookList li {
+    border: 1px solid pink;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  #bookList li h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  input[type=text] {
+	padding: 10px;
+	font-size: 16px;
+	border: 2px solid pink;
+	border-radius: 4px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	margin-bottom: 20px;
+	padding: 10px;
+	background-color: #f9f9f9;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}
+.container
+{
+    background-color: pink;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  
+}
+
+.content {
+  position:fixed;
+  padding: 20px;
+  background-image: url("https://cdn.pixabay.com/photo/2019/05/14/21/50/storytelling-4203628__340.jpg");
+  height: 900px; 
+  width: 2000px;
+  justify-content: center;
+   text-align:center;
+
+}
